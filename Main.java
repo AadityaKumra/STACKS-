@@ -19,6 +19,8 @@ class Main {
     full=stack.isFull();
     System.out.println(full);
     stack.push(5);
+    stack.pop();
+    stack.pop();
 
     
   }

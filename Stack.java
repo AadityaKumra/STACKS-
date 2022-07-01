@@ -35,7 +35,16 @@ public class Stack{
       arr[top+1]=value;
       top++;
       System.out.println("Value successfully inserted");
+    }  
+  }
+
+  public void pop(){
+    if(isEmpty()){
+      System.out.println("Stack is empty!");
     }
+    int topStack=arr[top];
+    top-=1;
+    System.out.println(topStack+" popped.");
     
   }
 }
