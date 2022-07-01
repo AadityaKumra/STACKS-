@@ -8,5 +8,12 @@ public class Stack{
     System.out.println("The stack is created with size of: "+size);
   }
 
-  
+  public boolean isEmpty(){
+    if(top==-1){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
 }
