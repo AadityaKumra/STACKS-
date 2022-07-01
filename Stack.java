@@ -16,4 +16,14 @@ public class Stack{
       return false;
     }
   }
+
+  public boolean isFull(){
+    if(top==arr.length-1){
+      System.out.println("Stack is full!");
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
 }
