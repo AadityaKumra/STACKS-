@@ -47,4 +47,14 @@ public class Stack{
     System.out.println(topStack+" popped.");
     
   }
+
+  public void peek(){
+    if(isEmpty()){
+      System.out.println("Stack is empty!!");  
+    }
+    else{
+      int topStack=arr[top];
+      System.out.println("top of stack is "+topStack);
+    }
+  }
 }

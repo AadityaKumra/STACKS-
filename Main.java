@@ -16,12 +16,15 @@ class Main {
     stack.push(2);
     stack.push(3);
     stack.push(4);
+    
     full=stack.isFull();
     System.out.println(full);
+    
     stack.push(5);
     stack.pop();
     stack.pop();
 
+    stack.peek();
     
   }
 }
