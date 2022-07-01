@@ -1,15 +1,25 @@
 class Main {
   public static void main(String[] args) {
-    Stack newStack=new Stack(4);
+    Stack stack=new Stack(4);
     // if(newStack.isEmpty()){
     //   System.out.println("Stack is empty.");
     // }
     // else{
     //   System.out.println("Eh.Stack not empty.");
     // }
-    boolean empty=newStack.isEmpty();
+    boolean empty=stack.isEmpty();
     System.out.println(empty);
-    boolean full=newStack.isFull();
+    boolean full=stack.isFull();
     System.out.println(full);
+
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+    stack.push(4);
+    full=stack.isFull();
+    System.out.println(full);
+    stack.push(5);
+
+    
   }
 }

@@ -26,4 +26,16 @@ public class Stack{
       return false;
     }
   }
+
+  public void push(int value){
+    if(isFull()){
+      System.out.println("Stack is already full!");
+    }
+    else{
+      arr[top+1]=value;
+      top++;
+      System.out.println("Value successfully inserted");
+    }
+    
+  }
 }
