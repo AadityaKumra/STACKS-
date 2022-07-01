@@ -57,4 +57,9 @@ public class Stack{
       System.out.println("top of stack is "+topStack);
     }
   }
+
+  public void deleteStack(){
+    arr=null;
+    System.out.println("The stack is deleted successfully!");
+  }
 }

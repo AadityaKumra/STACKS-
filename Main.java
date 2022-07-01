@@ -25,6 +25,8 @@ class Main {
     stack.pop();
 
     stack.peek();
+
+    stack.deleteStack();
     
   }
 }
